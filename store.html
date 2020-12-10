@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>鼎信通信ショップ</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+	<script>
+	function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
+}
+	
+	</script>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">鼎信通信ショップ</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">商品一覧</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">君が旗　大吟醸</span>
+                    <img class="shop-item-image" src="Images/dayingxiang.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">￥5500(税抜)</span>
+                        <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">長澤屋　大吟醸</span>
+                    <img class="shop-item-image" src="Images/changzewu.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">￥3500(税抜)</span>
+                        <button class="btn btn-primary shop-item-button"type="button">カートに入れる</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">君が旗　上撰　本酿造</span>
+                    <img class="shop-item-image" src="Images/benniangjiu.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">￥1840(税抜)</span>
+                        <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">君が旗　原酒</span>
+                    <img class="shop-item-image" src="Images/yuanjiu.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">￥2140(税抜)</span>
+                        <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title"></span>
+                    
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"></span>
+                        
+                    </div>
+                </div>
+				<b></b>
+                <div class="shop-item">
+                    <span class="shop-item-title"></span>
+                    
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"></span>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">商品</span>
+                <span class="cart-price cart-header cart-column">価格</span>
+                <span class="cart-quantity cart-header cart-column">数量</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">合計</strong>
+                <span class="cart-total-price">￥0</span>
+            </div><hr>
+			<b style="text-align: center">20歳未満の飲酒は法律で禁止されています。
+				飲酒は20歳になってから。飲酒運転は法律で禁止されています。<br>
+				妊娠中や授乳期の飲酒は、胎児·乳児の発育に悪影響を与えるおそれがあります。お酒は楽しく、ほどほどに。飲んだ後はリサイクル。<br>
+				20歳以上の年齢であることを確認できない場合には酒類を販売いたしません。<br>
+				20歳未満の飲酒防止のため年齢確認をさせて頂いております。予めご了承ください。</b><br>
+			<b style="text-align: center;font-size: 20px;color: black">私は20歳以上です:</b>
+			<input type="checkbox" id="myCheck" onclick="myFunction()">
+			<p id="text" style="display:none">私は20歳以上のことを承諾しました。</p>
+            <button class="btn btn-primary btn-purchase" type="button">お支払い</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">鼎信通信ショップ</h3>
+                <ul class="nav footer-nav">
+                    
+                    
+                    
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
